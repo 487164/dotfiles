@@ -1,3 +1,6 @@
 [submodule "kickstart.nvim"]
 	path = config/nvim
 	url = https://github.com/nvim-lua/kickstart.nvim.git
+[submodule "profile.ps1"]
+	path = Documents\PowerShell
+	url = https://gist.github.com/487164/ff3c34505385ff77435323f8af815123.git
