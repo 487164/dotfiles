@@ -1,3 +1,12 @@
 [user]
   name = 487164
   email = 159768801+487164@users.noreply.github.com
+[alias]
+    lg = log --graph --pretty --decorate --all
+    #lgs = log --graph --pretty=format:"%h%x09%C(yellow)%an%x09%Cred%ad%x09%Cgreen%d%x09%Creset%s" #%h=hash,%x09=tab,%an=authorname,%ad=authordate(on --date= format),%s=subject
+    lgs = log --graph --pretty=format:"%h%x09%C(yellow)%an%x09%Cred%ad%x09%Creset%s%Cgreen%d" #%h=hash,%x09=tab,%an=authorname,%ad=authordate(on --date= format),%s=subject
+    pl = pull origin
+    rs = reset --soft HEAD~1
+    st = status
+    df = diff
+    ch = checkout -- .
